@@ -10,5 +10,52 @@
     <a href="Pagina1.html">Pagina1</a>
     <a href="Pagina 2.html">Pagina2</a>
     <a href="Pagina 4.html">Pagina4</a>
+
+    <h2>Cuestionario de quejas y/o sugerencias</h2>
+    <form action="envialmail.php" method="post">
+        <fieldset>
+            <label>Nombre:</label><br>
+            <input type="text" required="true" max="50"><br><br>
+            
+            <label>Edad:</label><br>
+            <input type="number" required="true" min="18" max="100"><br><br>
+
+            <label>Correo electrónico:</label><br>
+            <input type="email" required="true"><br><br>
+
+            <label>Género:</label><br>
+            <input type="radio" name="genero">
+            <label>Masculino</label><br>
+            <input type="radio" name="genero">
+            <label>Femenino</label><br><br>
+
+            <label>Intereses:</label><br>
+            <input type="checkbox">
+            <label>Coches modernos</label><br>
+            <input type="checkbox">
+            <label >Coches antiguos</label><br>
+            <input type="checkbox"></input>
+            <label>Aprender sobre coches</label><br><br>
+
+            <label>Estudios:</label><br>
+            <select >
+                <option>Primaria Completa</option>
+                <option>Secundaria Completa</option>
+                <option>Universidad</option>
+                <option>Máster</option>
+            </select><br><br>
+
+            <legend>Fecha y Hora</legend>
+            <label>Fecha:</label>
+            <input type="date"><br><br>
+            <label>Hora:</label>
+            <input type="time"><br><br>
+
+            <label>Mensaje:</label><br>
+            <textarea></textarea><br><br>
+
+            <input type="submit">
+        </fielset>
+    </form>
 </body>
 </html>
