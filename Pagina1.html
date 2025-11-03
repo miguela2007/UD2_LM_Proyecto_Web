@@ -1,14 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página principal</title>
 </head>
 <body>
-    <a href="index.html">Pagina principal</a>
-    <a href="Pagina 2.html">Pagina2</a>
-    <a href="Pagina 3.html">Pagina3</a>
-    <a href="Pagina 4.html">Pagina4</a>
+    <!--El atributo "id" servira mas abajo para hacer que el usuario se mueva mejor por la pagina principal-->
+  <header id="titulo">
+    <!--La tabla de abajo servira para que el icono de la web este en la misma linea que el titulo-->
+    <table>
+       <tr>
+        <td><img src="/images/logo.png" width="100" alt="Logo"></td>
+        <td><h1><b>Compraventa de coches</b></h1></td>
+       </tr>
+    </table>
+    <h3>Nuestra página principal</h3>
+  </header>
+<!--La etiqueta <p> esta separada de esta forma para que se pueda notar mejor donde empiezan las citas-->
+  <p>
+    <i>"Con el coche adecuado, cada viaje se convierte en una experiencia única."</i>
+    —Juan Pérez, experto en automoción <br>
+    <i>"Comprar un coche no es solo una transacción, es elegir un compañero de aventuras. Cada detalle, desde el diseño hasta la tecnología, influye en cómo vivirás tus trayectos diarios y tus escapadas de fin de semana. Elegir con cuidado garantiza seguridad, confort y satisfacción a largo plazo."</i>
+    —María González, especialista en vehículos y movilidad
+</p>
+<!--Abajo hay un atributo "id" con el mismo proposito del "id" de la linea 10-->
+<a href="#menú">Ir abajo</a>
+<!--El video por algun motivo no se puede ver, no he encontrado forma de arreglarlo-->
+<iframe width="759" height="436" 
+src="https://www.youtube.com/embed/p6jnQx24fcM" title="SEAT Arona. Cada día puede ser diferente." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h3><b>¿Qué vendemos?</b></h3>
+<p>Vendemos todo tipo de coches, revisados antes de su puesta en venta y con una fiabilidad sobresaliente. Como vendedores, ofrecemos:</p>
+<ul>
+    <li><b>Fiabilidad</b> de lo que vendemos</li>
+    <li><b>Precios accesibles</b> para todo el mundo</li>
+    <li><b>Documentacion de todos los coches</b>: Nosotros nos encargamos de todos lo legal para volverte el dueño legimito del coche que compres, gratis.</li>
+</ul>
+<h3><b>¿De que disponemos?</b></h3>
+<p>Disponemos de muchas marcas famosas y no tan famosas. Aqui abajo algunos ejemplos:</p>
+<!--He añadido los enlaces de paginas famosas. El "target: _blank" servira para que al pinchar en el enlace se abra una pestaña nueva-->
+<ul>
+    <li><a href="https://www.seat.es/" target="_blank"><b>Seat</b></a></li>
+    <li><a href="https://www.fiat.es/"target="_blank"><b>Fiat</b></a></li>
+    <li><a href="https://www.volkswagen.es/es.html" target="_blank"><b>Volkswagen</b></a></li>
+    <li><a href="https://www.toyota.es/" target="_blank"><b>Toyota</b></a></li>
+
+</ul>
+<!--El atributo "id" servira para hacer que el usuario se mueva mejor por la pagina principal-->
+<aside id="menú">
+    <h2>Menú</h2>
+    <ul>
+        <li><a href="index.html">Pincha aquí para volver a la página de inicio</a></li>
+        <li><a href="Pagina 2.html">Pincha aquí para ver más</a></li>
+        <li><a href="Pagina 3.html">Pincha aquí para vender tu coche</a></li>
+    </ul>
+</aside>
+<a href="#titulo">Ir arriba</a>
+<footer>
+    <table>
+       <tr>
+        <td><img src="/images/correo.png" width="50" alt="Correo"></td>
+        <td><a href="Pagina 4.html">Información de contacto</a></td>
+       </tr>
+    </table>
+    
+  </footer>
 </body>
 </html>
