@@ -8,27 +8,28 @@
 <body>
     <!--Empiezo el cuestionario dando un título fuera del mismo con un <h2>, y luego metiendo el <form> junto al <fieldset>-->
     <h2>Cuestionario de quejas y/o sugerencias</h2>
-    <!--Aquí meto el correo al que se mandará el formulario-->
-    <form action="mailto:dpascan2601@g.educaand.es" method="post">
+    <!--Aquí meto el inicio del formulario-->
+    <form>
         <fieldset>
             <!--Ahora pediremos en el cuestionario que el usuario meta sus datos, siendo algunos obligatorios y otros no-->
-            <label>Nombre:</label><br>
-            <input type="text" required="true" max="50"><br><br>
+            <legend>Información personal</legend>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" required="true" max="50" name="nombre"><br><br>
             
-            <label>Edad:</label><br>
-            <input type="number" required="true" placeholder="+18" min="18" max="100"><br><br>
+            <label for="edad">Edad:</label><br>
+            <input type="number" required="true" placeholder="+18" min="18" max="100" name="edad"><br><br>
 
-            <label>Teléfono:</label><br>
-            <input type="tel" required="true" placeholder="+xx-xxxxxxxxx"><br><br>
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" required="true" placeholder="+xx-xxxxxxxxx" name="telefono"><br><br>
 
-            <label>Correo electrónico:</label><br>
-            <input type="email" required="true"><br><br>
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" required="true" name="correo"><br><br>
 
-            <label>Género:</label><br>
+            <label for="genero">Género:</label><br>
             <input type="radio" name="genero">
-            <label>Masculino</label><br>
+            <label >Masculino</label><br>
             <input type="radio" name="genero">
-            <label>Femenino</label><br><br>
+            <label >Femenino</label><br><br>
 
             <label>Intereses:</label><br>
             <input type="checkbox">
@@ -45,8 +46,10 @@
                 <option>Universidad</option>
                 <option>Máster</option>
             </select><br><br>
-
-            <legend>Fecha y Hora</legend>
+        </fieldset>
+        <fieldset>
+            <legend>Detalles de la encuesta</legend>
+            <label>Fecha y Hora</label><br>
             <label>Fecha:</label>
             <input type="date"><br><br>
             <label>Hora:</label>
@@ -55,8 +58,11 @@
             <label>Mensaje:</label><br>
             <textarea></textarea><br><br>
 
+        </fieldset>
+        <fieldset>
+            <legend>Finalizar</legend>
             <input type="submit"><br><br>
-        </fielset>
+        </fieldset>
     </form>
 
     <!--Dejo este enlace para darle opción al usuario de volver al principio si no quiere hacer el cuestionario-->
