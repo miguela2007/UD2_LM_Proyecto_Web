@@ -4,22 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock</title>
+    <header>
+         <table>
+        <tr>
+            <td><img src="/images/logo.png" width="100" alt="Logo"></td>
+            <td><h1><b>Compraventa de coches</b></h1></td>
+        </tr>
+        </table>
+        <aside>
+    <h2>Menú</h2>
+    <ul>
+        <li><a href="index.html">Pincha aquí para volver a la página de inicio</a></li>
+        <li><a  href="Pagina1.html">Pincha aquí para ver la página principal</a></li>
+        <li><a href="Pagina 3.html">Pincha aquí para acceder a un cuestionario rápido</a></li>
+    </ul>
+</aside>
+    </header>
 </head>
 <body>
+    <!--Aquí pongo el estilo que tendrá la tabla para que no se vea sin líneas-->
     <style> table, th, td {  border: 1px solid black; } table {border-collapse: collapse; } </style>
 
-    <h1>Stock de coches que vendemos en este momento</h1>
+    <h2>10 coches con más stock en este momento</h2>
+    <!--A partir de aquí empiezo a trabajar con la tabla, donde comentaré lo más importante-->
     <table>
+        <!--Meto el titulo en el <thead> para diferenciar del contenido-->
         <thead>
             <tr>
-                <th rowspan="">Coches a la venta</th>
-                <th>coches reservados</th>
+                <!--Le pongo el colspan para que ocupe las columnas que tiene la tabla-->
+                <th colspan="4">Coches a la venta</th>
             </tr>
         </thead>
-        <tbody></tbody>
-        <tfoot></tfoot>
-    </table>
+        <tbody>
+            <tr>
+                <!--Meto este rowspan para que ocupe todas las lineas del <tbody>-->
+                <th rowspan="11">N<br>O<br><br>T<br>E<br><br>L<br>O<br><br>P<br>I<br>E<br>R<br>D<br>A<br>S</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Precio</th>
+            </tr>
+             <tr>
+            <td>Volkswagen</td>
+            <td>Golf</td>
+            <td>15,000 - 25,000 €</td>
+            </tr>
+            <tr>
+                <td>BMW</td>
+                <td>Serie 3</td>
+                <td>18,000 - 30,000 €</td>
+            </tr>
+            <tr>
+                <td>Mercedes-Benz</td>
+                <td>Clase C</td>
+                <td>20,000 - 35,000 €</td>
+            </tr>
+            <tr>
+                <td>Seat</td>
+                <td>León</td>
+                <td>12,000 - 20,000 €</td>
+            </tr>
+            <tr>
+                <td>Audi</td>
+                <td>A3</td>
+                <td>18,000 - 28,000 €</td>
+            </tr>
+            <tr>
+                <td>Renault</td>
+                <td>Clio</td>
+                <td>8,000 - 15,000 €</td>
+            </tr>
+            <tr>
+                <td>Ford</td>
+                <td>Focus</td>
+                <td>10,000 - 18,000 €</td>
+            </tr>
+            <tr>
+                <td>Seat</td>
+                <td>Ibiza</td>
+                <td>9,000 - 16,000 €</td>
+            </tr>
+            <tr>
+                <td>Peugeot</td>
+                <td>308</td>
+                <td>10,000 - 18,000 €</td>
+            </tr>
+            <tr>
+                <td>Opel</td>
+                <td>Astra</td>
+                <td>9,000 - 17,000 €</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4"><i>Para más información contacte con nosotros</i></td>
+        </tfoot>
+    </table><br><br>
 
-    <a href="index.html">Pagina principal</a>
+    <footer>
+    <table>
+       <tr>
+        <td><img src="/images/correo.png" width="50" alt="Correo"></td>
+        <td><a href="Pagina 4.html">Información de contacto</a></td>
+       </tr>
+    </table>
+  </footer>
 </body>
+<footer></footer>
 </html>
