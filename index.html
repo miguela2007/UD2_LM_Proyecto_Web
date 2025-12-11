@@ -6,6 +6,8 @@
     <title>Compraventa de coche</title>
     <link rel="stylesheet" href="styles/estilos.css">
 </head>
+
+
 <body>  
     <header>
         <!--La tabla de abajo servira para que el icono de la web este en la misma linea que el titulo-->
@@ -19,39 +21,37 @@
             en la que añadir el enlace a la pagina 1, y tambien
             para añadir 3 imagenes relacionadas con el tema y el menu-->
         <nav>
-            <ul>
-            </ul>
             <!--Creo un <aside> para guardar los enlaces a otras paginas del proyecto mas secundarias-->
-            <aside>
-                <h2>Menú</h2>
-                <ul>
-                    <li><a href="Pagina1.html" target="_blank">Pincha aqui para ver el contenido principal</a></li>
-                    <li><a href="Pagina 2.html" target="_blank">Pincha aqui para ver el stock</a></li>
-                    <li><a href="Pagina 3.html" target="_blank">Pincha aqui para acceder a nuestro formulario</a></li>
-                </ul>  
-            </aside>
-            <h3>¡Compra tu mejor coche!</h3>
-            <p>En esta pagina web encontraras los mejores coches de segunda mano al mejor precio.</p>
-            <p> ¡Tambien, si te interesa, podemos comprar tu coche!</p>
-            <a href="https://www.seat.es/" target="_blank">
-                <img src="/images/seat.jpg" width="400" height="200" alt="Marca Seat">
-            </a>
-            <a href="https://www.fiat.es/" target="_blank">
-                <img src="/images/fiat.jpg" width="400" height="200" alt="Marca Fiat">
-
-            </a>
-            <a href="https://www.volkswagen.es/es.html" target="_blank">
-                <img src="/images/vw.jpg" width="400" height="200" alt="Marca VW">
-            </a>
+            <h2>Menú</h2>
+            <div class="enlaces">
+                <a class="enlace1" href="Pagina1.html" target="_blank">Pincha aqui para ver el contenido principal</a>
+                <a class="enlace2" href="Pagina 2.html" target="_blank">Pincha aqui para ver el stock</a>
+                <a class="enlace3" href="Pagina 3.html" target="_blank">Pincha aqui para acceder a nuestro formulario</a>  
+            </div>
         </nav>
     </header>
+
+    <h3>¡Compra tu mejor coche!</h3>
+    <div class="text">
+        <p>En esta pagina web encontraras los mejores coches de segunda mano al mejor precio.</p>
+        <p class="textoennegrita"> ¡Tambien, si te interesa, podemos comprar tu coche!</p>
+    </div>
+    
+    <div class="cajaimg">
+        <a class="imagencoche" href="https://www.seat.es/" target="_blank">
+            <img src="/images/seat.jpg" width="400" height="200" alt="Marca Seat">
+        </a>
+        <a class="imagencoche" href="https://www.fiat.es/" target="_blank">
+            <img src="/images/fiat.jpg" width="400" height="200" alt="Marca Fiat">
+        </a>
+        <a class="imagencoche" href="https://www.volkswagen.es/es.html" target="_blank">
+            <img src="/images/vw.jpg" width="400" height="200" alt="Marca VW">
+        </a>
+    </div>
 </body>
 <footer>
-    <table>
-       <tr>
-            <td><img src="/images/correo.png" width="50" alt="Correo"></td>
-            <td><a href="Pagina 4.html">Información de contacto</a></td>
-       </tr>
-    </table>    
+    <a href="Pagina 4.html">
+        <img class="img_email" src="/images/correo.png" width="50" alt="Correo">
+    </a>
 </footer>
 </html>
