@@ -1,8 +1,35 @@
+/*esta parte es de la página de contacto*/
+
+
+iframe {
+    width: 100%;
+    border: 1px solid #007BFF;
+    margin-top: 15px;
+}
+
+
+.cajonAnuncio {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #007BFF;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+audio {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.tituloPequeño{
+    color:#007BFF;
+}
+
 .tituloCuestionario{
     background-color: #007BFF; 
     color: white;            
     padding: 12px 20px;       
-    border-radius: 6px;        
+    border-radius: 6px;
     text-align: center;       
     font-size: 20px;
     font-weight: bold;
