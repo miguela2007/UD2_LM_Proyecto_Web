@@ -1,12 +1,17 @@
-/*esta parte es de la página de contacto*/
+.bordes{
+    border: 1px solid #007BFF;
+}
 
+.tablaCoches{
+    border-collapse: collapse;
+    margin:auto;
+}
 
 iframe {
     width: 100%;
     border: 1px solid #007BFF;
     margin-top: 15px;
 }
-
 
 .cajonAnuncio {
     text-align: center;
@@ -19,6 +24,11 @@ iframe {
 audio {
     width: 50%;
     margin-top: 10px;
+}
+
+.bordeYcolor{
+    color:#007BFF;
+    border: 1px solid #007BFF;
 }
 
 .tituloPequeño{

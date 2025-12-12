@@ -23,79 +23,77 @@
     </header>
 </head>
 <body>
-    <!--Aquí pongo el estilo que tendrá la tabla para que no se vea sin líneas-->
-    <style> table, th, td {  border: 1px solid black; } table {border-collapse: collapse; } </style>
 
-    <h2>10 coches con más stock en este momento</h2>
+    <h2 class="tituloCuestionario">10 coches con más stock en este momento</h2>
     <!--A partir de aquí empiezo a trabajar con la tabla, donde comentaré lo más importante-->
-    <table>
+    <table class="tablaCoches">
         <!--Meto el titulo en el <thead> para diferenciar del contenido-->
         <thead>
-            <tr>
+            <tr class="bordes">
                 <!--Le pongo el colspan para que ocupe las columnas que tiene la tabla-->
-                <th colspan="4">Coches a la venta</th>
+                <th colspan="4" class="tituloPequeño">Coches a la venta</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
+        <tbody class="bordes">
+            <tr class="bordes">
                 <!--Meto este rowspan para que ocupe todas las lineas del <tbody>-->
-                <th rowspan="11">N<br>O<br><br>T<br>E<br><br>L<br>O<br><br>P<br>I<br>E<br>R<br>D<br>A<br>S</th>
-                <th>Marca</th>
-                <th>Modelo</th>
-                <th>Precio</th>
+                <th rowspan="11" class="tituloPequeño">N<br>O<br><br>T<br>E<br><br>L<br>O<br><br>P<br>I<br>E<br>R<br>D<br>A<br>S</th>
+                <th class="bordeYcolor">Marca</th>
+                <th class="bordeYcolor">Modelo</th>
+                <th class="bordeYcolor">Precio</th>
             </tr>
-             <tr>
-            <td>Volkswagen</td>
-            <td>Golf</td>
+             <tr class="bordes">
+            <td class="bordes">Volkswagen</td>
+            <td class="bordes">Golf</td>
             <td>15,000 - 25,000 €</td>
             </tr>
-            <tr>
-                <td>BMW</td>
-                <td>Serie 3</td>
+            <tr class="bordes">
+                <td class="bordes">BMW</td>
+                <td class="bordes">Serie 3</td>
                 <td>18,000 - 30,000 €</td>
             </tr>
-            <tr>
-                <td>Mercedes-Benz</td>
-                <td>Clase C</td>
+            <tr class="bordes">
+                <td class="bordes">Mercedes-Benz</td>
+                <td class="bordes">Clase C</td>
                 <td>20,000 - 35,000 €</td>
             </tr>
-            <tr>
-                <td>Seat</td>
-                <td>León</td>
+            <tr class="bordes">
+                <td class="bordes">Seat</td>
+                <td class="bordes">León</td>
                 <td>12,000 - 20,000 €</td>
             </tr>
-            <tr>
-                <td>Audi</td>
-                <td>A3</td>
+            <tr class="bordes">
+                <td class="bordes">Audi</td>
+                <td class="bordes">A3</td>
                 <td>18,000 - 28,000 €</td>
             </tr>
-            <tr>
-                <td>Renault</td>
-                <td>Clio</td>
+            <tr class="bordes">
+                <td class="bordes">Renault</td>
+                <td class="bordes">Clio</td>
                 <td>8,000 - 15,000 €</td>
             </tr>
-            <tr>
-                <td>Ford</td>
-                <td>Focus</td>
+            <tr class="bordes">
+                <td class="bordes">Ford</td>
+                <td class="bordes">Focus</td>
                 <td>10,000 - 18,000 €</td>
             </tr>
-            <tr>
-                <td>Seat</td>
-                <td>Ibiza</td>
+            <tr class="bordes">
+                <td class="bordes">Seat</td>
+                <td class="bordes">Ibiza</td>
                 <td>9,000 - 16,000 €</td>
             </tr>
-            <tr>
-                <td>Peugeot</td>
-                <td>308</td>
-                <td>10,000 - 18,000 €</td>
+            <tr class="bordes">
+                <td class="bordes">Peugeot</td>
+                <td class="bordes">308</td>
+                <td class="bordes">10,000 - 18,000 €</td>
             </tr>
-            <tr>
-                <td>Opel</td>
-                <td>Astra</td>
+            <tr class="bordes">
+                <td class="bordes">Opel</td>
+                <td class="bordes">Astra</td>
                 <td>9,000 - 17,000 €</td>
             </tr>
         </tbody>
-        <tfoot>
+        <tfoot class="bordes">
             <td colspan="4"><i>Para más información contacte con nosotros</i></td>
         </tfoot>
     </table><br><br>
