@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/estilos.css">
     <title>Formulario</title>
-    <header>
-        <table>
-                <tr>
-                    <td><img src="/images/logo.png" width="100" alt="Logo"></td>
-                    <td><h1><b>Compraventa de coches</b></h1></td>
-                </tr>
-        </table>
-    </header>
 </head>
 <body>
-    <aside>
+    <header>
+        <table>
+            <tr>
+                <td><img src="/images/logo.png" width="100" alt="Logo"></td>
+                <td><h1><b>Compraventa de coches</b></h1></td>
+            </tr>
+        </table>
+    </header>
+    <nav>
           <h2>Menú</h2>
-          <ul>
-              <li><a href="index.html">Pincha aquí para volver a la página de inicio</a></li>
-              <li><a href="Pagina 2.html">Pincha aquí para ver el stock</a></li>
-              <li><a href="Pagina 1.html">Pincha aquí para ir a la pagina principal</a></li>
-          </ul>
-    </aside>
+          <div class="enlaces">
+              <a class="enlace1" href="index.html">Pincha aquí para volver a la página de inicio</a>
+              <a class="enlace2" href="Pagina 2.html">Pincha aquí para ver el stock</a>
+              <a class="enlace3" href="Pagina 1.html">Pincha aquí para ir a la pagina principal</a>
+          </div>
+        </nav>
     <!--Empiezo el cuestionario dando un título fuera del mismo con un <h2>, y luego metiendo el <form> junto al <fieldset>-->
     <h2 class="tituloCuestionario">Cuestionario de quejas y/o sugerencias</h2>
     <!--Aquí meto el inicio del formulario-->
@@ -86,16 +86,13 @@
 
     <!--Dejo este enlace para darle opción al usuario de volver al principio si no quiere hacer el cuestionario-->
     <aside>
-        <a href="index.html">Volver a la página principal</a>
+        <a href="index.html">Volver al inicio</a>
     </aside>
     
     <footer>
-        <table id="pie">
-        <tr>
-            <td><img src="/images/correo.png" width="50" alt="Correo"></td>
-            <td><a href="Pagina 4.html">Información de contacto</a></td>
-        </tr>
-        </table>
+        <a href="Pagina 4.html">
+        <img class="img_email" src="/images/correo.png" width="50" alt="Correo">
+    </a>
     </footer>
 </body>
 </html>

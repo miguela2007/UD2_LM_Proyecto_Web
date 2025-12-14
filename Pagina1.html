@@ -9,7 +9,6 @@
   <body>
       <!--El atributo "id" servira mas abajo para hacer que el usuario se mueva mejor por la pagina principal-->
     <header id="titulo">
-      <link rel="stylesheet" href="styles/estilos.css">
       <!--La tabla de abajo servira para que el icono de la web este en la misma linea que el titulo-->
       <table>
         <tr>
@@ -17,54 +16,68 @@
           <td><h1><b>Compraventa de coches</b></h1></td>
         </tr>
       </table>
-        <aside>
+        <nav>
           <h2>Menú</h2>
-          <ul>
-              <li><a href="index.html">Pincha aquí para volver a la página de inicio</a></li>
-              <li><a href="Pagina 2.html">Pincha aquí para ver el stock</a></li>
-              <li><a href="Pagina 3.html">Pincha aquí para acceder a un cuestionario rápido</a></li>
-          </ul>
-        </aside>
+          <div class="enlaces">
+              <a class="enlace1" href="index.html">Pincha aquí para volver a la página de inicio</a>
+              <a class="enlace2" href="Pagina 2.html">Pincha aquí para ver el stock</a>
+              <a class="enlace3" href="Pagina 3.html">Pincha aquí para acceder a un cuestionario rápido</a>
+          </div>
+        </nav>
     </header>
-    <h3>Nuestra página principal</h3>
-    <!--La etiqueta <p> esta separada de esta forma para que se pueda notar mejor donde empiezan las citas-->
+    <a class="mvtopag" href="#pie">Ir abajo</a><br>
+
+
+
+
+    <div class="contenidoprincipal">
+      <h3>Nuestra página principal</h3>
+      <!--La etiqueta <p> esta separada de esta forma para que se pueda notar mejor donde empiezan las citas-->
       <p>
         <i>"Con el coche adecuado, cada viaje se convierte en una experiencia única."</i>
         —Juan Pérez, experto en automoción <br>
         <i>"Comprar un coche no es solo una transacción, es elegir un compañero de aventuras. Cada detalle, desde el diseño hasta la tecnología, influye en cómo vivirás tus trayectos diarios y tus escapadas de fin de semana. Elegir con cuidado garantiza seguridad, confort y satisfacción a largo plazo."</i>
         —María González, especialista en vehículos y movilidad
       </p>
-    <!--Abajo hay un atributo "id" con el mismo proposito del "id" de la linea 10-->
-    <a href="#pie">Ir abajo</a><br>
-    <!--El video por algun motivo no se puede ver, no he encontrado forma de arreglarlo-->
-    <iframe width="759" height="436" 
+      <!--Abajo hay un atributo "id" con el mismo proposito del "id" de la linea 10-->
+    </div>
+    
+    
+    
+    <iframe class="video" width="759" height="436" 
     src="https://www.youtube.com/embed/p6jnQx24fcM" title="SEAT Arona. Cada día puede ser diferente." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <h3><b>¿Qué vendemos?</b></h3>
-    <p>Vendemos todo tipo de coches, revisados antes de su puesta en venta y con una fiabilidad sobresaliente. Como vendedores, ofrecemos:</p>
-    <ul>
-        <li><b>Fiabilidad</b> de lo que vendemos</li>
-        <li><b>Precios accesibles</b> para todo el mundo</li>
-        <li><b>Documentacion de todos los coches</b>: Nosotros nos encargamos de todos lo legal para volverte el dueño legimito del coche que compres, gratis.</li>
-    </ul>
-    <h3><b>¿De que disponemos?</b></h3>
-    <p>Disponemos de muchas marcas famosas y no tan famosas. Aqui abajo algunos ejemplos:</p>
-    <!--He añadido los enlaces de paginas famosas. El "target: _blank" servira para que al pinchar en el enlace se abra una pestaña nueva-->
-    <ul>
-        <li><a href="https://www.seat.es/" target="_blank"><b>Seat</b></a></li>
-        <li><a href="https://www.fiat.es/"target="_blank"><b>Fiat</b></a></li>
-        <li><a href="https://www.volkswagen.es/es.html" target="_blank"><b>Volkswagen</b></a></li>
-        <li><a href="https://www.toyota.es/" target="_blank"><b>Toyota</b></a></li>
-
-    </ul>
+    
+    
+    
+    <div class="contenidoprincipal">
+      <h3><b>¿Qué vendemos?</b></h3>
+      <p>Vendemos todo tipo de coches, revisados antes de su puesta en venta y con una fiabilidad sobresaliente. Como vendedores, ofrecemos:</p>
+      <ul>
+          <li><b>Fiabilidad</b> de lo que vendemos</li>
+          <li><b>Precios accesibles</b> para todo el mundo</li>
+          <li><b>Documentacion de todos los coches</b>: Nosotros nos encargamos de todos lo legal para volverte el dueño legimito del coche que compres, gratis.</li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="contenidoprincipal">
+      <h3><b>¿De que disponemos?</b></h3>
+      <p>Disponemos de muchas marcas famosas y no tan famosas. Aqui abajo algunos ejemplos:</p>
+      <!--He añadido los enlaces de paginas famosas. El "target: _blank" servira para que al pinchar en el enlace se abra una pestaña nueva-->
+      <div class="contmarcas">
+        <a class="marcas" href="https://www.seat.es/" target="_blank"><b>Seat</b></a>
+        <a class="marcas" href="https://www.fiat.es/"target="_blank"><b>Fiat</b></a>
+        <a class="marcas" href="https://www.volkswagen.es/es.html" target="_blank"><b>Volkswagen</b></a>
+        <a class="marcas" href="https://www.toyota.es/" target="_blank"><b>Toyota</b></a>
+      </div>
+    </div>
     <!--El atributo "id" servira para hacer que el usuario se mueva mejor por la pagina principal-->
-    <a href="#titulo">Ir arriba</a>
+    <a class="mvtopag" href="#titulo">Ir arriba</a>
   </body>
-  <footer>
-    <table id="pie">
-       <tr>
-        <td><img src="/images/correo.png" width="50" alt="Correo"></td>
-        <td><a href="Pagina 4.html">Información de contacto</a></td>
-       </tr>
-    </table>
+  <footer id="pie">
+    <a href="Pagina 4.html">
+        <img class="img_email" src="/images/correo.png" width="50" alt="Correo">
+    </a>
   </footer>
 </html>

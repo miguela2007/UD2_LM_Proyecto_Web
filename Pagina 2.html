@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/estilos.css">
     <title>Stock</title>
+</head>
+<body>
     <header>
         <table>
             <tr>
@@ -12,18 +14,15 @@
                 <td><h1><b>Compraventa de coches</b></h1></td>
             </tr>
         </table>
-        <aside>
-    <h2>Menú</h2>
-    <ul>
-        <li><a href="index.html">Pincha aquí para volver a la página de inicio</a></li>
-        <li><a  href="Pagina1.html">Pincha aquí para ver la página principal</a></li>
-        <li><a href="Pagina 3.html">Pincha aquí para acceder a un cuestionario rápido</a></li>
-    </ul>
-</aside>
+        <nav>
+            <h2>Menú</h2>
+            <div class="enlaces">
+                <a class="enlace1" href="index.html">Pincha aquí para volver a la página de inicio</a>
+                <a class="enlace2"  href="Pagina1.html">Pincha aquí para ver la página principal</a>
+                <a class="enlace3" href="Pagina 3.html">Pincha aquí para acceder a un cuestionario rápido</a>
+            </div>
+        </nav>
     </header>
-</head>
-<body>
-
     <h2 class="tituloCuestionario">10 coches con más stock en este momento</h2>
     <!--A partir de aquí empiezo a trabajar con la tabla, donde comentaré lo más importante-->
     <table class="tablaCoches">
@@ -99,13 +98,9 @@
     </table><br><br>
 
     <footer>
-    <table>
-       <tr>
-        <td><img src="/images/correo.png" width="50" alt="Correo"></td>
-        <td><a href="Pagina 4.html">Información de contacto</a></td>
-       </tr>
-    </table>
+    <a href="Pagina 4.html">
+        <img class="img_email" src="/images/correo.png" width="50" alt="Correo">
+    </a>
   </footer>
 </body>
-<footer></footer>
 </html>
